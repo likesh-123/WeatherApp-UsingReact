@@ -31,6 +31,7 @@ const Temp = () => {
         sunset,
       };
       document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + data.name + "')";
+      document.body.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
 
       steTempInfo(myNewWeatherInfo);
     } catch (error) {
